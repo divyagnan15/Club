@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDC website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">eDC</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#events" class="navbar__links" id="events-page">Events</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contacts" class="navbar__links" id="contacts-page">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section  -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">EDC <span>CBIT</span></h1>
+            <p class="hero__description">Enterpreneu"rising" Ideas</p>
+            <buttton class="main__btn"><a href="#">Explore</a></buttton>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>About Us</h1>
+                <p>EDC CBIT is setup with a vision to instill enterprenurial sprit in young minds</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Events section -->
+    <div class="events" id="events">
+        <h1>Our Flagship Events</h1>
+        <div class="events__wrapper">
+            <div class="events__card">
+                <h2>E-CON</h2>
+                <p>Epowering Innovation</p>
+                <div class="events__btn"><button>get a peek</button></div>
+            </div>
+            <div class="events__card">
+                <h2>IMPRESARIO</h2>
+                <p>Enterpreneurship Unwrapped</p>
+                <div class="events__btn"><button>get a peek</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footeer sction -->
+    <div class="footer__container">
+        <h1>Contact Us</h1>
+        <div class="footer__link">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <i class="fa fa-map-location"></i>
+                    <h2>Address</h2>
+                    <p>CBIT, Gandipet, 500075</p>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <i class="fa fa-envelope"></i>
+                    <h2>Email</h2>
+                    <a href="/email">edccbit635@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">EDC</a>
+                </div>
+                <p class="website__rights">© Copyright EDC CBIT. All Rights Reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icons--links" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icons--links" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icons--links" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>  
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
